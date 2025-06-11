@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Password Strength Checker</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-...your_integrity_key..." crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+</head>
+<body>
+    <header>
+        <h2><span>🔐</span>Password Strength Checker</h2>
+        <p>Welcome to the Password Strength Checker — a simple, interactive tool that helps you create stronger passwords in real time. Just start typing your password, and the checker will instantly analyze it and show whether it's Weak, Medium, or Strong.</p>
+    </header>
+
+    <div class="container">
+        <div class="input-box">
+            <div class="input-row">
+              <input type="password" id="password" placeholder="Enter Your Password">
+              <button type="submit" id="submit-button">
+                <i class="fa fa-eye" aria-hidden="true"></i>
+              </button>
+            </div>
+            <p id="message"><span id="strength">Weak</span></p>
+        </div>
+          
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

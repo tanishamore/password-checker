@@ -1,0 +1,103 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #b69edb;
+    background-image: 
+      linear-gradient(to right, #ffffff2a 1px, transparent 1px),
+      linear-gradient(to bottom, #ffffff2a 1px, transparent 1px);
+    background-size: 30px 20px;
+}
+  
+
+.container{
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    background: linear-gradient(90deg, 
+  rgba(152, 91, 180, 0.411) 40%, 
+  rgba(210, 156, 224, 0.488) 100%
+);
+    padding: 2px 20px 10px 50px;
+    
+    text-align: center;
+    color: white;
+    margin-inline: 50px;
+    margin-top: 50px;
+    
+}
+
+p{
+    font-size: 20px;
+}
+span{
+    margin-right: 10px;
+}
+
+.input-box {
+    background: rgba(255, 255, 255, 0.4);
+    border: 1px solid white;
+    padding: 20px;
+    
+    border-radius: 10px;
+    width: 50%;
+    height: 40px
+}
+
+.input-box input {
+    padding: 0px 16px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: all 0.2s ease;
+    font-size: 16px;
+    outline: none;
+    width: 80%;
+    height: 30px;
+  }
+
+  .input-row {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+  }
+  
+  .input-box input:hover,
+  .input-box input:focus {
+    transform: translateX(3px) translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+  }
+
+  button {
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+    width: 25px;
+    height: 25px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    border: none;
+    background:white;
+    border-radius: 7px;
+    
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    transform: translateX(3px) translateY(-3px) ;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+  }
+  
+  #message{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 5px;
+    color: rgb(40, 8, 66);
+    font-size: 15px;
+    display: none;
+  }
