@@ -2,7 +2,7 @@
 
 The **Password Strength Checker** is a simple, interactive web tool that helps users create secure passwords by providing real-time feedback on password strength. As you type your password, the checker instantly analyzes it and displays whether it's **Weak**, **Medium**, or **Strong**.
 
-![Screenshot][screenshot1.png]
+![Screenshots](screenshot1.png)(screenshot2.png)(screenshot3.png)
 ---
 
 ## 🚀 Features
